@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produse — Inter Conecter</title>
+<meta name="description" content="Explorează gama Inter Conecter: ciocolată, cafea, înghețată și delicii premium de la branduri europene de lux.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/pages.css">
+<link rel="icon" href="assets/logo-espresso.png">
+</head>
+<body>
+
+<header class="nav on-dark" id="nav">
+  <a class="brand" href="index.html" aria-label="Inter Conecter — acasă">
+    <img src="assets/logo-cream.png" alt="Inter Conecter" id="brandLogo">
+  </a>
+  <nav class="nav-links">
+    <a href="index.html">Acasă</a>
+    <a href="despre-noi.html">Despre Noi</a>
+    <a href="produse.html" aria-current="page">Produse</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <div class="lang" aria-label="Limbă"><button class="on">RO</button><span class="sep">/</span><button>EN</button></div>
+    <a class="btn btn-gold" href="contact.html">Devino partener<span class="arr">→</span></a>
+    <button class="burger" aria-label="Meniu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Acasă</a>
+  <a href="despre-noi.html">Despre Noi</a>
+  <a href="produse.html">Produse</a>
+  <a href="contact.html">Contact</a>
+  <div class="mm-foot"><span>RO / EN</span><a href="tel:0727722851">0727 722 851</a></div>
+</div>
+
+<!-- ===== SHOP HERO ===== -->
+<section class="shop-hero grain">
+  <div class="wrap shop-hero-inner">
+    <span class="eyebrow reveal">Portofoliul nostru</span>
+    <h1 class="display reveal" data-d="1">Produse</h1>
+    <p class="lede reveal" data-d="2">O selecție gourmet de ciocolată, cafea, înghețată și delicii — de la branduri europene de lux pe care le reprezentăm în România.</p>
+  </div>
+</section>
+
+<!-- ===== SHOP ===== -->
+<section class="shop wrap">
+  <div class="shop-layout">
+
+    <!-- FILTERS -->
+    <aside class="filters" id="filters">
+      <button class="filters-close" id="filtersClose" aria-label="Închide filtre">×</button>
+
+      <div class="fgroup">
+        <div class="fsearch">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="searchInput" placeholder="Caută produse sau branduri…">
+        </div>
+      </div>
+
+      <div class="fgroup">
+        <h4>Categorie</h4>
+        <div class="filter-list" id="catList">
+          <button class="filter-btn active" data-cat="all">Toate produsele<span class="cnt" data-for="all">0</span></button>
+          <button class="filter-btn" data-cat="ocazionale">Branduri ocazionale<span class="cnt" data-for="ocazionale">0</span></button>
+          <button class="filter-btn" data-cat="oficiala">Reprezentare oficială<span class="cnt" data-for="oficiala">0</span></button>
+          <button class="filter-btn" data-cat="dulciuri">Dulciuri<span class="cnt" data-for="dulciuri">0</span></button>
+          <button class="filter-btn" data-cat="inghetata">Înghețată<span class="cnt" data-for="inghetata">0</span></button>
+          <button class="filter-btn" data-cat="cafea">Cafea<span class="cnt" data-for="cafea">0</span></button>
+        </div>
+        <button class="filters-reset" id="resetFilters">Resetează filtrele</button>
+      </div>
+    </aside>
+
+    <!-- LISTING -->
+    <div class="shop-main">
+      <div class="shop-toolbar">
+        <button class="filter-toggle" id="filterToggle">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+          Filtre
+        </button>
+        <span class="shop-count"><strong id="shopCount">0</strong> produse</span>
+        <div class="shop-sort">
+          <label for="sortSelect">Sortează</label>
+          <select id="sortSelect">
+            <option value="featured">Recomandate</option>
+            <option value="az">Nume A–Z</option>
+            <option value="za">Nume Z–A</option>
+            <option value="brand">După brand</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+
+        <!-- DULCIURI / CIOCOLATĂ -->
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Tabletă ciocolată neagră 72%" data-brand="Villars" data-feat="1">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Villars"><span class="ph-mono">V</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Villars</span><h3>Ciocolată neagră 72%</h3><p>Tabletă fină, intens cacao, din portofoliul elvețian premium.</p><div class="product-foot"><span class="product-origin"><b></b>Elveția</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Mozart Kugeln" data-brand="Reber" data-feat="2">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Reber"><span class="ph-mono">R</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Reber</span><h3>Mozart Kugeln</h3><p>Pralina clasică cu marțipan și nuga, un simbol al tradiției germane.</p><div class="product-foot"><span class="product-origin"><b></b>Germania</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Praline asortate" data-brand="Hamlet" data-feat="3">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Hamlet"><span class="ph-mono">H</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Hamlet</span><h3>Praline belgiene asortate</h3><p>Cutie selecție, umpluturi cremoase, artizanat belgian autentic.</p><div class="product-foot"><span class="product-origin"><b></b>Belgia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Lingou ciocolată cu lapte" data-brand="Goldkenn" data-feat="4">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Goldkenn"><span class="ph-mono">G</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Goldkenn</span><h3>Lingou „Gold Bar"</h3><p>Iconicul lingou de aur din ciocolată elvețiană cu lapte.</p><div class="product-foot"><span class="product-origin"><b></b>Elveția</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri" data-name="Tabletă cu lapte și alune" data-brand="Americana" data-feat="5">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Americana"><span class="ph-mono">A</span></div><span class="product-cat">Marcă proprie</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Americana</span><h3>Tabletă cu lapte și alune</h3><p>Marca proprie Inter Conecter — rețetă generoasă, gust de acasă.</p><div class="product-foot"><span class="product-origin"><b></b>România</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Bomboane cu lichior" data-brand="Abtey" data-feat="9">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Abtey"><span class="ph-mono">A</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Abtey</span><h3>Bomboane cu lichior</h3><p>Specialitate franțuzească, miez fin de lichior învelit în ciocolată.</p><div class="product-foot"><span class="product-origin"><b></b>Franța</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Praline vieneze" data-brand="Heindl" data-feat="10">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Heindl"><span class="ph-mono">H</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Heindl</span><h3>Praline vieneze</h3><p>Eleganță austriacă, rețete de cofetărie clasică vieneză.</p><div class="product-foot"><span class="product-origin"><b></b>Austria</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="dulciuri oficiala" data-name="Specialități ciocolată" data-brand="Hofbauer" data-feat="11">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Hofbauer"><span class="ph-mono">H</span></div><span class="product-cat">Dulciuri</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Hofbauer</span><h3>Specialități de ciocolată</h3><p>Colecție austriacă rafinată, pentru rafturile premium.</p><div class="product-foot"><span class="product-origin"><b></b>Austria</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <!-- CAFEA -->
+        <article class="product reveal" data-cat="cafea oficiala" data-name="Intermezzo cafea boabe" data-brand="Segafredo" data-feat="6">
+          <div class="product-media"><div class="ph ph-coffee" data-label="Segafredo"><span class="ph-mono">S</span></div><span class="product-cat">Cafea</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Segafredo · Reprezentare oficială</span><h3>Intermezzo · boabe</h3><p>Blend echilibrat, crema densă — alegerea barurilor exigente.</p><div class="product-foot"><span class="product-origin"><b></b>Italia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="cafea oficiala" data-name="Espresso Casa măcinată" data-brand="Segafredo" data-feat="12">
+          <div class="product-media"><div class="ph ph-coffee" data-label="Segafredo"><span class="ph-mono">S</span></div><span class="product-cat">Cafea</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Segafredo · Reprezentare oficială</span><h3>Espresso Casa · măcinată</h3><p>Aromă rotundă, intensitate medie, ideală pentru espresso acasă.</p><div class="product-foot"><span class="product-origin"><b></b>Italia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="cafea oficiala" data-name="Capsule compatibile Nespresso" data-brand="Segafredo" data-feat="13">
+          <div class="product-media"><div class="ph ph-coffee" data-label="Segafredo"><span class="ph-mono">S</span></div><span class="product-cat">Cafea</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Segafredo · Reprezentare oficială</span><h3>Capsule & Softpads</h3><p>Compatibile Nespresso, pentru consum rapid fără compromis la gust.</p><div class="product-foot"><span class="product-origin"><b></b>Italia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="cafea oficiala" data-name="Selezione Crema boabe" data-brand="Segafredo" data-feat="14">
+          <div class="product-media"><div class="ph ph-coffee" data-label="Segafredo"><span class="ph-mono">S</span></div><span class="product-cat">Cafea</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Segafredo · Reprezentare oficială</span><h3>Selezione Crema · boabe</h3><p>Profil dulce-aromat, crema persistentă pentru cappuccino.</p><div class="product-foot"><span class="product-origin"><b></b>Italia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <!-- ÎNGHEȚATĂ -->
+        <article class="product reveal" data-cat="inghetata oficiala" data-name="Înghețată vanilie premium" data-brand="Mövenpick" data-feat="7">
+          <div class="product-media"><div class="ph ph-cream" data-label="Mövenpick"><span class="ph-mono">M</span></div><span class="product-cat">Înghețată</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Mövenpick</span><h3>Vanilie de Madagascar</h3><p>Textură catifelată, vanilie naturală — desert elvețian de referință.</p><div class="product-foot"><span class="product-origin"><b></b>Elveția</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="inghetata oficiala" data-name="Înghețată ciocolată elvețiană" data-brand="Mövenpick" data-feat="15">
+          <div class="product-media"><div class="ph ph-cream" data-label="Mövenpick"><span class="ph-mono">M</span></div><span class="product-cat">Înghețată</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Mövenpick</span><h3>Ciocolată elvețiană</h3><p>Intensă și cremoasă, cu fulgi fini de ciocolată premium.</p><div class="product-foot"><span class="product-origin"><b></b>Elveția</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <!-- BRANDURI OCAZIONALE -->
+        <article class="product reveal" data-cat="ocazionale dulciuri" data-name="Confetti și drajeuri" data-brand="Crispo" data-feat="8">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Crispo"><span class="ph-mono">C</span></div><span class="product-cat">Ocazional</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Crispo · Sezonier</span><h3>Confetti & drajeuri</h3><p>Pentru evenimente și sărbători — culori și arome festive.</p><div class="product-foot"><span class="product-origin"><b></b>Italia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="ocazionale dulciuri" data-name="Colecție sărbători" data-brand="Pralibel" data-feat="16">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Pralibel"><span class="ph-mono">P</span></div><span class="product-cat">Ocazional</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Pralibel · Sezonier</span><h3>Colecție de sărbători</h3><p>Praline belgiene în ambalaje festive, pentru cadouri premium.</p><div class="product-foot"><span class="product-origin"><b></b>Belgia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <article class="product reveal" data-cat="ocazionale dulciuri" data-name="Figurine ciocolată sezoniere" data-brand="Klingele" data-feat="17">
+          <div class="product-media"><div class="ph ph-cocoa" data-label="Klingele"><span class="ph-mono">K</span></div><span class="product-cat">Ocazional</span><span class="product-fav">♡</span></div>
+          <div class="product-body"><span class="product-brand">Klingele · Sezonier</span><h3>Figurine de ciocolată</h3><p>Ediții pentru Paște și Crăciun, pentru rafturi de impuls.</p><div class="product-foot"><span class="product-origin"><b></b>Belgia</span><span class="product-cta">Detalii<i>→</i></span></div></div>
+        </article>
+
+        <div class="shop-empty" id="shopEmpty"><h3>Niciun produs găsit</h3><p>Încearcă o altă categorie sau resetează filtrele.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta grain">
+  <div class="wrap cta-inner">
+    <span class="eyebrow center reveal">Catalog complet B2B</span>
+    <h2 class="display reveal" data-d="1">Vrei lista completă<br>și <em>prețuri</em>?</h2>
+    <p class="lede reveal" data-d="2">Trimite-ne un mesaj și echipa noastră îți pregătește oferta potrivită pentru afacerea ta.</p>
+    <div class="cta-actions reveal" data-d="3">
+      <a class="btn btn-gold" href="contact.html">Cere catalogul<span class="arr">→</span></a>
+      <a class="btn btn-ghost-light" href="tel:0727722851">Vânzări: 0727 722 851</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="fbrand"><img src="assets/logo-cream.png" alt="Inter Conecter"><p>Nouă chiar ne place ciocolata. Distribuitor premium de ciocolată, cafea, înghețată și delicii din 2011.</p></div>
+      <div><h5>Navigare</h5><ul><li><a href="index.html">Acasă</a></li><li><a href="despre-noi.html">Despre Noi</a></li><li><a href="produse.html">Produse</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h5>Categorii</h5><ul><li><a href="produse.html?cat=dulciuri">Dulciuri</a></li><li><a href="produse.html?cat=cafea">Cafea</a></li><li><a href="produse.html?cat=inghetata">Înghețată</a></li><li><a href="produse.html?cat=ocazionale">Branduri ocazionale</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="mailto:office@interconecter.ro">office@interconecter.ro</a></li><li><a href="tel:0727722851">Vânzări · 0727 722 851</a></li><li><a href="https://www.facebook.com/interconecter2" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.youtube.com/channel/UCEtbn0y0fkkSG854gmAhwkA" target="_blank" rel="noopener">YouTube</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Inter Conecter SRL · Timișoara, România</span>
+      <div class="legal"><a href="#">Termeni și Condiții</a><a href="#">Confidențialitate</a><a href="#">ANPC</a><a href="#">Cookies</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/shop.js"></script>
+</body>
+</html>

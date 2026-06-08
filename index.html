@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inter Conecter — Distribuitor Ciocolată & Cafea Premium</title>
+<meta name="description" content="Din 2011, Inter Conecter aduce în România ciocolată europeană de lux, cafea premium și delicii gourmet, atent selecționate pentru afacerea ta.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="assets/logo-espresso.png">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav on-dark" id="nav">
+  <a class="brand" href="index.html" aria-label="Inter Conecter — acasă">
+    <img src="assets/logo-cream.png" alt="Inter Conecter" id="brandLogo">
+  </a>
+  <nav class="nav-links">
+    <a href="index.html" aria-current="page">Acasă</a>
+    <a href="despre-noi.html">Despre Noi</a>
+    <a href="produse.html">Produse</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <div class="lang" aria-label="Limbă">
+      <button class="on">RO</button><span class="sep">/</span><button>EN</button>
+    </div>
+    <a class="btn btn-gold" href="contact.html">Devino partener<span class="arr">→</span></a>
+    <button class="burger" aria-label="Meniu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Acasă</a>
+  <a href="despre-noi.html">Despre Noi</a>
+  <a href="produse.html">Produse</a>
+  <a href="contact.html">Contact</a>
+  <div class="mm-foot"><span>RO / EN</span><a href="tel:0727722851">0727 722 851</a></div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero grain">
+  <div class="hero-inner wrap">
+    <div class="hero-copy">
+      <div class="hero-slides">
+
+        <article class="hero-slide active" data-slide="0">
+          <span class="eyebrow">Distribuitor premium · din 2011</span>
+          <h1 class="display">Gustul rafinat al <em>ciocolatei</em><br>și <em>cafelei</em> europene.</h1>
+          <p class="lede">Reprezentăm în România branduri europene de lux — ciocolată, cafea, înghețată și delicii gourmet, selectate pentru afaceri care nu fac compromisuri la calitate.</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="produse.html">Explorează produsele<span class="arr">→</span></a>
+            <a class="btn btn-ghost-light" href="despre-noi.html">Povestea noastră</a>
+          </div>
+        </article>
+
+        <article class="hero-slide" data-slide="1">
+          <span class="eyebrow">Cafea de specialitate · aromă autentică</span>
+          <h1 class="display">Aroma intensă a <em>cafelei</em><br>prăjite cu măiestrie.</h1>
+          <p class="lede">Sortimente atent selecționate, cu accent pe prospețime, consistență și aromă în fiecare ceașcă — pentru localuri și retaileri care servesc doar ce e mai bun.</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="produse.html?cat=cafea">Descoperă cafeaua<span class="arr">→</span></a>
+            <a class="btn btn-ghost-light" href="despre-noi.html">Povestea noastră</a>
+          </div>
+        </article>
+
+        <article class="hero-slide" data-slide="2">
+          <span class="eyebrow">Delicii gourmet · pentru orice sezon</span>
+          <h1 class="display">Răcoare fină și <em>delicii</em><br>pentru fiecare moment.</h1>
+          <p class="lede">Înghețată premium, praline și dulciuri rafinate, cu texturi atent calibrate și arome apreciate — varietate și calitate constantă, livrate cu responsabilitate.</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="produse.html?cat=inghetata">Vezi deliciile<span class="arr">→</span></a>
+            <a class="btn btn-ghost-light" href="despre-noi.html">Povestea noastră</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="hero-media">
+      <div class="hero-figure active" data-slide="0">
+        <image-slot id="hero-main" class="hero-img" shape="rect" src="assets/photos/choco-dark.jpg" placeholder="Imagine hero · ciocolată"></image-slot>
+      </div>
+      <div class="hero-figure" data-slide="1">
+        <image-slot id="hero-coffee" class="hero-img" shape="rect" src="assets/photos/coffee-pour.jpg" placeholder="Imagine hero · cafea"></image-slot>
+      </div>
+      <div class="hero-figure" data-slide="2">
+        <image-slot id="hero-ice" class="hero-img" shape="rect" src="assets/photos/icecream-cone.jpg" placeholder="Imagine hero · înghețată"></image-slot>
+      </div>
+
+      <div class="hero-dots" role="tablist" aria-label="Navigare slide-uri">
+        <button class="hero-dot active" role="tab" aria-selected="true" aria-label="Slide 1 — Ciocolată"></button>
+        <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 2 — Cafea"></button>
+        <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 3 — Înghețată"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Goldkenn</span><b>·</b><span>Heindl</span><b>·</b><span>Hamlet</span><b>·</b><span>Villars</span><b>·</b><span>Klingele</span><b>·</b><span>Reber</span><b>·</b><span>Abtey</span><b>·</b><span>Segafredo</span><b>·</b><span>Hofbauer</span><b>·</b><span>Crispo</span><b>·</b><span>Pralibel</span><b>·</b><span>Mövenpick</span><b>·</b>
+    <span>Goldkenn</span><b>·</b><span>Heindl</span><b>·</b><span>Hamlet</span><b>·</b><span>Villars</span><b>·</b><span>Klingele</span><b>·</b><span>Reber</span><b>·</b><span>Abtey</span><b>·</b><span>Segafredo</span><b>·</b><span>Hofbauer</span><b>·</b><span>Crispo</span><b>·</b><span>Pralibel</span><b>·</b><span>Mövenpick</span><b>·</b>
+  </div>
+</div>
+
+<!-- ============ INTRO ============ -->
+<section class="section intro">
+  <div class="wrap intro-grid">
+    <div class="intro-media reveal">
+      <image-slot id="intro-img" class="intro-img" shape="rounded" radius="4" src="assets/photos/coffee-cup.jpg" placeholder="Imagine atmosferă / produs"></image-slot>
+      <div class="intro-stat">
+        <span class="serif" data-count="15" data-suffix="">0</span>
+        <small>ani de distribuție<br>premium în România</small>
+      </div>
+    </div>
+    <div class="intro-copy">
+      <span class="eyebrow reveal">Cine suntem</span>
+      <h2 class="section-title reveal" data-d="1">Mai mult decât distribuție —<br>un <em>parteneriat</em> al gustului.</h2>
+      <p class="reveal" data-d="2">Inter Conecter a pornit cu un scop clar: să aducă în România produse premium, atent selecționate, care fac diferența în experiența consumatorului final. Calitatea nu a fost niciodată doar un standard, ci un angajament față de partenerii noștri și clienții lor.</p>
+      <p class="reveal" data-d="2">Astăzi suntem un distribuitor de încredere de ciocolată și cafea premium, furnizând lanțuri mari de supermarketuri, hypermarketuri, benzinării, retaileri, cofetării, patiserii și magazine de specialitate din toată țara.</p>
+      <a class="textlink reveal" data-d="3" href="despre-noi.html">Citește povestea Inter Conecter<span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats grain">
+  <div class="wrap stats-grid">
+    <div class="stat reveal"><span class="num serif">2011</span><span class="lbl">Anul în care<br>am început</span></div>
+    <div class="stat reveal" data-d="1"><span class="num serif" data-count="14" data-suffix="+">0</span><span class="lbl">Branduri<br>europene de lux</span></div>
+    <div class="stat reveal" data-d="2"><span class="num serif" data-count="4">0</span><span class="lbl">Categorii<br>gourmet premium</span></div>
+    <div class="stat reveal" data-d="3"><span class="num serif">Unic</span><span class="lbl">Importator pentru<br>numeroase mărci</span></div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section cats">
+  <div class="wrap">
+    <div class="cats-head">
+      <div>
+        <span class="eyebrow reveal">Deliciile noastre</span>
+        <h2 class="section-title reveal" data-d="1">O selecție gourmet,<br>pentru fiecare <em>moment</em>.</h2>
+      </div>
+      <p class="lede reveal" data-d="2">Soluții B2B dedicate afacerilor care își doresc produse de calitate, livrate constant, eficient și cu responsabilitate.</p>
+    </div>
+
+    <div class="cats-grid">
+      <a class="cat reveal" href="produse.html?cat=dulciuri">
+        <image-slot id="cat-choco" class="cat-img" shape="rounded" radius="4" src="assets/photos/choco-bar.jpg" placeholder="Ciocolată"></image-slot>
+        <div class="cat-body">
+          <span class="cat-no">01</span>
+          <h3>Ciocolată</h3>
+          <p>Gusturi rafinate, branduri de lux, distribuție de încredere.</p>
+          <span class="cat-go">Vezi gama<i>→</i></span>
+        </div>
+      </a>
+      <a class="cat reveal" data-d="1" href="produse.html?cat=cafea">
+        <image-slot id="cat-coffee" class="cat-img" shape="rounded" radius="4" src="assets/photos/espresso-shot.jpg" placeholder="Cafea"></image-slot>
+        <div class="cat-body">
+          <span class="cat-no">02</span>
+          <h3>Cafea</h3>
+          <p>Sortimente atent selecționate, cu accent pe aromă și consistență în fiecare ceașcă.</p>
+          <span class="cat-go">Vezi gama<i>→</i></span>
+        </div>
+      </a>
+      <a class="cat reveal" data-d="2" href="produse.html?cat=inghetata">
+        <image-slot id="cat-ice" class="cat-img" shape="rounded" radius="4" src="assets/photos/icecream-cone.jpg" placeholder="Înghețată"></image-slot>
+        <div class="cat-body">
+          <span class="cat-no">03</span>
+          <h3>Înghețată</h3>
+          <p>Arome apreciate și texturi atent calibrate, pentru afaceri care vor să se diferențieze.</p>
+          <span class="cat-go">Vezi gama<i>→</i></span>
+        </div>
+      </a>
+      <a class="cat reveal" data-d="3" href="produse.html">
+        <image-slot id="cat-other" class="cat-img" shape="rounded" radius="4" src="assets/photos/pralines.jpg" placeholder="Alte delicii"></image-slot>
+        <div class="cat-body">
+          <span class="cat-no">04</span>
+          <h3>Alte Delicii</h3>
+          <p>O selecție diversificată de produse premium, pentru varietate și calitate constantă.</p>
+          <span class="cat-go">Vezi gama<i>→</i></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OWN BRANDS ============ -->
+<section class="section own grain">
+  <div class="wrap own-grid">
+    <div class="own-copy">
+      <span class="eyebrow reveal">Mărcile noastre proprii</span>
+      <h2 class="section-title reveal" data-d="1">Americana —<br>tradiția, <em>readusă acasă</em>.</h2>
+      <p class="reveal" data-d="2">Cunoscutul brand de ciocolată <strong>Americana</strong> este din nou prezent pe piața din România, ca marcă proprie Inter Conecter: tablete cu lapte, alune, cremă de mentă, căpșuni, ciocolată neagră, ciocolată menaj pentru cofetării, napolitane, biscuiți și drajeuri.</p>
+      <div class="own-tags reveal" data-d="3">
+        <span>Tablete</span><span>Napolitane</span><span>Biscuiți</span><span>Drajeuri</span><span>Ciocolată menaj</span>
+      </div>
+      <a class="textlink reveal" data-d="3" href="produse.html">Descoperă gama Americana<span class="arr">→</span></a>
+    </div>
+    <div class="own-media reveal" data-d="1">
+      <image-slot id="own-img" class="own-img" shape="rounded" radius="4" src="assets/photos/choco-dark.jpg" placeholder="Produse Americana / Finezza"></image-slot>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRAND WALL ============ -->
+<section class="section brands">
+  <div class="wrap">
+    <div class="brands-head reveal">
+      <span class="eyebrow center">Branduri de lux</span>
+      <h2 class="section-title" style="text-align:center">Producători europeni de <em>renume</em></h2>
+      <p class="lede" style="text-align:center;max-width:60ch;margin:clamp(30px,4vw,46px) auto 0">Reprezentăm pe piața din România nume care definesc ciocolata și cafeaua premium, din Elveția, Belgia, Austria, Germania și Franța.</p>
+    </div>
+    <div class="brand-wall reveal" data-d="1">
+      <span>Goldkenn<small>Elveția</small></span>
+      <span>Villars<small>Elveția</small></span>
+      <span>Reber<small>Germania</small></span>
+      <span>Hamlet<small>Belgia</small></span>
+      <span>Heindl<small>Austria</small></span>
+      <span>Klingele<small>Belgia</small></span>
+      <span>Abtey<small>Franța</small></span>
+      <span>Hofbauer<small>Austria</small></span>
+      <span>Crispo<small>Italia</small></span>
+      <span>Pralibel<small>Belgia</small></span>
+      <span>Mövenpick<small>Elveția</small></span>
+      <span>Segafredo<small>Italia</small></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA B2B ============ -->
+<section class="cta grain">
+  <div class="wrap cta-inner">
+    <span class="eyebrow center reveal">Parteneriat B2B</span>
+    <h2 class="display reveal" data-d="1">Hai să construim ceva<br><em>dulce</em> împreună.</h2>
+    <p class="lede reveal" data-d="2">Lanțuri de retail, benzinării, cofetării, patiserii sau magazine de specialitate — îți deschidem accesul la o selecție gourmet, livrată constant și de încredere.</p>
+    <div class="cta-actions reveal" data-d="3">
+      <a class="btn btn-gold" href="contact.html">Devino partener<span class="arr">→</span></a>
+      <a class="btn btn-ghost-light" href="tel:0727722851">Vânzări: 0727 722 851</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="fbrand">
+        <img src="assets/logo-cream.png" alt="Inter Conecter">
+        <p>Nouă chiar ne place ciocolata. Distribuitor premium de ciocolată, cafea, înghețată și delicii din 2011.</p>
+      </div>
+      <div>
+        <h5>Navigare</h5>
+        <ul>
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="despre-noi.html">Despre Noi</a></li>
+          <li><a href="produse.html">Produse</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Categorii</h5>
+        <ul>
+          <li><a href="produse.html?cat=dulciuri">Dulciuri</a></li>
+          <li><a href="produse.html?cat=cafea">Cafea</a></li>
+          <li><a href="produse.html?cat=inghetata">Înghețată</a></li>
+          <li><a href="produse.html?cat=ocazionale">Branduri ocazionale</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:office@interconecter.ro">office@interconecter.ro</a></li>
+          <li><a href="tel:0727722851">Vânzări · 0727 722 851</a></li>
+          <li><a href="https://www.facebook.com/interconecter2" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UCEtbn0y0fkkSG854gmAhwkA" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Inter Conecter SRL · Timișoara, România</span>
+      <div class="legal">
+        <a href="#">Termeni și Condiții</a>
+        <a href="#">Confidențialitate</a>
+        <a href="#">ANPC</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/image-slot.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
