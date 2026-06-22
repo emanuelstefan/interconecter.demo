@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://interconecter.ro/sitemap-index.xml
